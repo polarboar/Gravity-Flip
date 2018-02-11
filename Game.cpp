@@ -14,7 +14,7 @@ Game::Game()
     setVerticalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
 
     QGraphicsPixmapItem* bottomTiles[10];
-    QPixmap tile_image = QPixmap(":/objects/tile2.png").scaled(80,80);
+    QPixmap tile_image = QPixmap(":res/objects/tile2.png").scaled(80,80);
 
     for(int i = 0; i < 10; i++)
     {

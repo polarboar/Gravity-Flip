@@ -2,12 +2,12 @@
 
 Player::Player()
 {
-    setPixmap(QPixmap(":/player/idle1.png").scaled(120,120));
+    setPixmap(QPixmap(":res/player/idle1.png").scaled(120,120));
     pixmapIndex = 0;
 
     for(int i = 1; i <= 8; i++)
     {
-        run[i-1] = QPixmap(":/player/run" + QString::number(i) + ".png").scaled(120,120);
+        run[i-1] = QPixmap(":/res/player/run" + QString::number(i) + ".png").scaled(120,120);
     }
 
 }
